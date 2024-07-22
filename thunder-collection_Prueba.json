@@ -1,0 +1,151 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Prueba",
+    "collectionId": "7e7412db-5131-40f6-beea-a63b0d8a68dc",
+    "dateExported": "2024-07-22T16:03:08.409Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "4cf65e2e-c84d-4fbc-9a1c-d48ecec82247",
+            "name": "personal",
+            "containerId": "",
+            "created": "2024-07-22T14:53:32.336Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "2e1e13ef-0ff9-4d23-8dc8-967ab5a6a19d",
+            "name": "usuarios",
+            "containerId": "",
+            "created": "2024-07-22T14:53:39.600Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "bcaa700c-35d9-482a-8d2d-9e9436f90983",
+            "name": "medicamentos",
+            "containerId": "",
+            "created": "2024-07-22T14:53:59.888Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "51633c7a-edd8-4a20-8db3-aa54b023b8b5",
+            "colId": "7e7412db-5131-40f6-beea-a63b0d8a68dc",
+            "containerId": "4cf65e2e-c84d-4fbc-9a1c-d48ecec82247",
+            "name": "get",
+            "url": "http://localhost:3000/personal",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-22T14:54:14.240Z",
+            "modified": "2024-07-22T15:48:38.215Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhvbGFtdW5kby5jbCIsImlhdCI6MTcyMTY2MDMyNH0.VKbz88YG_jM5uDg3aLjNlB7OKzQjkJubTaTUq1MjUgg"
+                }
+            ]
+        },
+        {
+            "_id": "269a4a34-c6de-4118-81ce-adef711fed49",
+            "colId": "7e7412db-5131-40f6-beea-a63b0d8a68dc",
+            "containerId": "4cf65e2e-c84d-4fbc-9a1c-d48ecec82247",
+            "name": "post",
+            "url": "http://localhost:3000/personal",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-22T14:54:18.993Z",
+            "modified": "2024-07-22T15:56:23.544Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"hola\",\n  \"rol\": \"gol\",\n  \"salario\": 150\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bed6f6e0-9064-44fb-88c4-afaf20be43bf",
+            "colId": "7e7412db-5131-40f6-beea-a63b0d8a68dc",
+            "containerId": "4cf65e2e-c84d-4fbc-9a1c-d48ecec82247",
+            "name": "put",
+            "url": "",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-07-22T14:54:36.768Z",
+            "modified": "2024-07-22T14:54:45.034Z",
+            "headers": []
+        },
+        {
+            "_id": "18f0cc87-b24e-4050-bd19-2ec967d5df9c",
+            "colId": "7e7412db-5131-40f6-beea-a63b0d8a68dc",
+            "containerId": "4cf65e2e-c84d-4fbc-9a1c-d48ecec82247",
+            "name": "delete",
+            "url": "http://localhost:3000/personal/:1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-07-22T14:54:52.479Z",
+            "modified": "2024-07-22T15:27:49.956Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": ""
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhvbGFtdW5kby5jbCIsImlhdCI6MTcyMTY2MDMyNH0.VKbz88YG_jM5uDg3aLjNlB7OKzQjkJubTaTUq1MjUgg"
+                }
+            ]
+        },
+        {
+            "_id": "52eaa0f3-e197-476a-b5dd-7b51ff1f07d4",
+            "colId": "7e7412db-5131-40f6-beea-a63b0d8a68dc",
+            "containerId": "2e1e13ef-0ff9-4d23-8dc8-967ab5a6a19d",
+            "name": "register",
+            "url": "http://localhost:3000/register",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-22T14:55:13.056Z",
+            "modified": "2024-07-22T14:57:50.298Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"holamundo.cl\",\n  \"pass\": \"123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e96da48f-6987-4052-a78b-13fc547bf307",
+            "colId": "7e7412db-5131-40f6-beea-a63b0d8a68dc",
+            "containerId": "2e1e13ef-0ff9-4d23-8dc8-967ab5a6a19d",
+            "name": "login",
+            "url": "http://localhost:3000/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-07-22T14:55:18.719Z",
+            "modified": "2024-07-22T14:58:44.615Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"holamundo.cl\",\n  \"pass\": \"123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "441b2114-1bd4-4c6f-bb03-2c762507c40c",
+            "colId": "7e7412db-5131-40f6-beea-a63b0d8a68dc",
+            "containerId": "bcaa700c-35d9-482a-8d2d-9e9436f90983",
+            "name": "get",
+            "url": "http://localhost:3000/medicamentos",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-07-22T15:48:04.770Z",
+            "modified": "2024-07-22T15:51:19.594Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhvbGFtdW5kby5jbCIsImlhdCI6MTcyMTY2MDMyNH0.VKbz88YG_jM5uDg3aLjNlB7OKzQjkJubTaTUq1MjUgg"
+                }
+            ]
+        }
+    ],
+    "ref": "N0usRrTD1UnuMKI9kqdzTeAKAW3sMgoxg4LPZoZFL2bFUNwGdgZawKmW6YJxO-XuGdz0uE9TmAa81PS19nyWEQ"
+}
